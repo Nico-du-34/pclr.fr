@@ -20,4 +20,14 @@ class SiteController extends Controller
     {
         return view('entreprise');
     }
+
+    public function auto()
+    {
+        return view('auto');
+    }
+
+    public function immobilier()
+    {
+        return view('immobilier');
+    }
 }
