@@ -5,9 +5,10 @@ import {
     Collapse,
     Ripple,
     initTE,
+    Dropdown,
   } from "tw-elements";
   
-  initTE({ Collapse, Ripple });
+  initTE({ Collapse, Ripple, Dropdown });
   
   // Get the button
   const mybutton = document.getElementById("btn-back-to-top");
@@ -32,3 +33,4 @@ import {
   mybutton.addEventListener("click", backToTop);
   
   window.addEventListener("scroll", scrollFunction);
+

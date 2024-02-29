@@ -20,5 +20,5 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
 
 Route::get('/', [SiteController::class, 'index'])->name('home');
-Route::get('/exemple1', [SiteController::class, 'exemple1'])->name('exemple1');
-Route::get('/exemple2', [SiteController::class, 'exemple2'])->name('exemple2');
+Route::get('/reglement', [SiteController::class, 'reglement'])->name('reglement');
+Route::get('/entreprise', [SiteController::class, 'entreprise'])->name('entreprise');

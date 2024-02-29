@@ -13,3 +13,18 @@
 
 @tailwind components;
 @tailwind utilities;
+
+.custom-font {
+  font-family: 'Times', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.custom-h1 {
+  
+  font-weight: bold;
+  display: inline-block; /* Assurez-vous que le h1 n'occupe que l'espace nécessaire */
+}
+
+.blue { color: blue; }
+.white { color: white; }
+.red { color: red; }

@@ -11,13 +11,13 @@ class SiteController extends Controller
         return view('home');
     }
 
-    public function exemple1()
+    public function reglement()
     {
-        return view('exemple1');
+        return view('reglement');
     }
 
-    public function exemple2()
+    public function entreprise()
     {
-        return view('exemple2');
+        return view('entreprise');
     }
 }
