@@ -2,13 +2,14 @@ import './bootstrap';
 // Initialization for ES Users
 
 import {
+    Datatable,
     Collapse,
     Ripple,
     initTE,
     Dropdown,
   } from "tw-elements";
   
-  initTE({ Collapse, Ripple, Dropdown });
+  initTE({ Datatable, Collapse, Ripple, Dropdown });
   
   // Get the button
   const mybutton = document.getElementById("btn-back-to-top");
