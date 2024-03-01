@@ -17,21 +17,22 @@
             </div>
 
             <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold">{{ $job->label }}</h5>
+                <h5 class="mb-3 text-lg font-bold">{{ $job->name }}</h5>
                 <div
-                    class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
+                    class="mb-6 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                         stroke="currentColor" class="mr-2 h-4 w-4">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
                     </svg>
-                    {{ $job->name }}
+                    {{ $job->label }}
                 </div>
+                
                 <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                    <small>Published <u>{{ optional($job->created_at)->format('d.m.Y') }}</u></small>
-                </p>
-                <p class="text-neutral-500 dark:text-neutral-300">
                     {{ $job->description }}
+                </p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                    <small>Publié: <u>{{ optional($job->created_at)->format('d.m.Y') }}</u></small>
                 </p>
                 <a href="{{ $job->discord_url }}" target="_blank" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
                     <div class="flex items-center"> <!-- Ajout de flex et items-center pour centrer le contenu -->
