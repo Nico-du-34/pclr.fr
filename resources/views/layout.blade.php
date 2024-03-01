@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <meta name="description" content="Serveur free access : {{ config('app.name', 'Laravel') }} est un serveur de jeu de rôle collaboratif librement inspiré de l'univers du jeu Grand Theft Auto V, en ligne et multi-joueurs.
+    Univers ouvert et réaliste : Paris est une ville vivante avec ses quartiers variés, ses boutiques, ses bars, ses boîtes de nuit, ses plages, ses montagnes, ses zones industrielles et bien plus encore. Chaque lieu a son atmosphère distincte et offre des opportunités uniques pour les joueurs.
+    "/>
+    <meta name="theme-color" content="#00000">
+    <meta property="og:title" content="{{ config('app.name', 'Laravel') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ env('APP_URL') }}">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:description" content="Serveur free access : {{ config('app.name', 'Laravel') }} est un serveur de jeu de rôle collaboratif librement inspiré de l'univers du jeu Grand Theft Auto V, en ligne et multi-joueurs.
+    Univers ouvert et réaliste : Paris est une ville vivante avec ses quartiers variés, ses boutiques, ses bars, ses boîtes de nuit, ses plages, ses montagnes, ses zones industrielles et bien plus encore. Chaque lieu a son atmosphère distincte et offre des opportunités uniques pour les joueurs.
+    "/>
+    <meta property="og:site_name" content="{{ config('app.name', 'Laravel') }}">
+    <meta name="keywords" content="french,life,rp,Serveur Francais,FiveM,rpfivem,fivemrp,Francerp,gtarp,Gta Rp,serveur fivem,serveur gta rp,">
     <!-- <link rel="stylesheet" href="{{ asset('css/styles.css') }}"> -->
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
@@ -184,8 +197,6 @@
     class="relative overflow-hidden bg-cover bg-no-repeat"
     style="
       background-position: 50%;
-      /* background-image: url('https://tecdn.b-cdn.net/img/new/slides/146.webp'); */
-      /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAiOmeyzHIKnYOC7juTkWjefGnluAJX6d3A&usqp=CAU'); */
       background-image: url('images/background.png');
       height: 400px;
         ">

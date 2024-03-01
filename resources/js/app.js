@@ -7,9 +7,10 @@ import {
     Ripple,
     initTE,
     Dropdown,
+    Lightbox,
   } from "tw-elements";
   
-  initTE({ Datatable, Collapse, Ripple, Dropdown });
+  initTE({ Datatable, Collapse, Ripple, Dropdown, Lightbox });
   
   // Get the button
   const mybutton = document.getElementById("btn-back-to-top");
