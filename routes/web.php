@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
-use App\Http\Controllers\AutoController;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +26,9 @@ use App\Http\Controllers\AutoController;
 Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('/reglement', [SiteController::class, 'reglement'])->name('reglement');
 Route::get('/entreprise', [SiteController::class, 'entreprise'])->name('entreprise');
-// Route::get('/auto', [SiteController::class, 'auto'])->name('auto');
+
 Route::get('/immobilier', [SiteController::class, 'immobilier'])->name('immobilier');
 
 
-Route::get('/autos', [AutoController::class, 'index'])->name('autos');
+Route::get('/autos', [SiteController::class, 'auto'])->name('autos');
+
