@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Job;
 use App\Models\Auto;
+use App\Models\Categorie;
 
 class SiteController extends Controller
 {
@@ -29,8 +30,10 @@ class SiteController extends Controller
     public function auto()
     {
         $playersCount = $this->getPlayersCount();
-        $autos = Auto::with('categories')->get();
-        return view('auto.index', compact('playersCount', 'autos'));
+        $autosByCategorie = Auto::with('categorie')->get()->groupBy(function($auto) {
+            return $auto->categorie->label;
+        });
+        return view('auto.index', compact('playersCount', 'autosByCategorie'));
     }
 
     public function immobilier()
@@ -38,8 +41,6 @@ class SiteController extends Controller
         $playersCount = $this->getPlayersCount();
         return view('immobilier', compact('playersCount'));
     }
-
-    // Autres méthodes...
 
     private function getPlayersCount()
     {

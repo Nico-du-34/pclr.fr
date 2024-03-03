@@ -29,6 +29,5 @@ Route::get('/entreprise', [SiteController::class, 'entreprise'])->name('entrepri
 
 Route::get('/immobilier', [SiteController::class, 'immobilier'])->name('immobilier');
 
-
 Route::get('/autos', [SiteController::class, 'auto'])->name('autos');
 

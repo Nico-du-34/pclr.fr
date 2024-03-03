@@ -2,10 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Categorie extends Model
 {
-    use HasFactory;
+    protected $fillable = ['id', 'type', 'categorie_id', 'name', 'label', 'prix', 'disponibilite', 'image_url', 'created_at', 'updated_at'];
 }
