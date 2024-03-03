@@ -1,10 +1,10 @@
 
 
-<div class="flex items-center"> <!-- Utilisation de flex et items-center pour centrer le contenu -->
+<div class="flex items-center">
     <svg class="fill-[#f2f2f2] w-6 h-6 mr-4" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
         <path d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"></path>
     </svg>
-    <p class="text-sm mr-2">FiveM  |</p> <!-- Ajout de la classe mr-2 pour ajouter un espace entre l'icône et le texte -->
+    <p class="text-sm mr-2">FiveM  |</p>
     @if (isset($playersCount))
       <p class="text-sm mr-1">{{ $playersCount }}</p>
     @else

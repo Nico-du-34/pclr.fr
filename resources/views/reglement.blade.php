@@ -20,7 +20,6 @@
             <h2 class="mb-4 text-1xl font-bold text-red-500">AVANT DE JOUER SUR LE SERVEUR MERCI DE METTRE UN NOM PRÉNOM RP SUR DISCORD,
             <br>STEAM et FIVEM SOUS PEINE DE SANCTION POUVANT ALLER À L'EXPULSION DU SERVEUR.</h2>
             
-            
             <p class="mb-6 text-neutral-500 dark:text-neutral-300">
               - <span class="font-bold underline">PowerGaming : </span>Faire des actions RP qui sont infaisables dans la vraie vie.<br>
               - <span class="font-bold underline">MetaGaming : </span>Cest le fait d'utiliser toutes sortes d'informations ou de moyens hors du jeu pour vous aider ou bien, avoir plus d'avantages dans le jeu. <br>
@@ -88,31 +87,6 @@
       </div>
     </div>
   </section>
-
-
 </div>
-
-
-<!-- <nav aria-label="Page navigation example">
-  <ul class="list-style-none mb-6 flex justify-center">
-    <li>
-      <a class="pointer-events-none relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-500 transition-all duration-300 dark:text-neutral-400" href="#1">Previous</a>
-    </li>
-    <li>
-      <a class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100  dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#1">1</a>
-    </li>
-    <li aria-current="page">
-      <a class="relative block rounded bg-primary-100 px-3 py-1.5 text-sm font-medium text-primary-700 transition-all duration-300" href="#2">2
-        <span class="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 [clip:rect(0,0,0,0)]">(current)</span>
-      </a>
-    </li>
-    <li>
-      <a class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#3">3</a>
-    </li>
-    <li>
-      <a class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#3">Next</a>
-    </li>
-  </ul>
-</nav> -->
 
 @endsection

@@ -48,12 +48,9 @@
   </div>
 </div>
 
-
-
 <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
 
 <div class="container my-24 mx-auto md:px-6">
-  <!-- Section: Design Block -->
   <section class="mb-32">
     <div
       class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
@@ -88,18 +85,15 @@
       </div>
     </div>
   </section>
-  <!-- Section: Design Block -->
 </div>
 
 <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
 
 <div class="container my-24 mx-auto md:px-6">
-  <!-- Section: Design Block -->
   <section class="mb-32 text-center">
     <h2 class="mb-12 text-3xl font-bold">
       Notre équipe
     </h2>
-
     <div class="lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4">
       <div class="mb-12 lg:mb-0">
         <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="logo.png" alt="avatar" />
@@ -123,11 +117,8 @@
       </div>
     </div>
   </section>
-  <!-- Section: Design Block -->
 </div>
 
 <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
-
-
 
 @endsection

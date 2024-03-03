@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"  class="dark">
+<html lang="fr" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,18 +18,17 @@
     "/>
     <meta property="og:site_name" content="{{ config('app.name', 'Laravel') }}">
     <meta name="keywords" content="french,life,rp,Serveur Francais,FiveM,rpfivem,fivemrp,Francerp,gtarp,Gta Rp,serveur fivem,serveur gta rp,">
-    <!-- <link rel="stylesheet" href="{{ asset('css/styles.css') }}"> -->
+
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
 <body  class="dark">
-    <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+
 <header>
-  <!-- Navigation bar -->
+
   <nav class="relative flex w-full items-center justify-between bg-gray-200 py-2 text-neutral-700 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-gray-700 dark:text-neutral-200 md:flex-wrap md:justify-start" data-te-navbar-ref>
     <div class="flex w-full flex-wrap items-center justify-between px-3">
       <div class="flex items-center">
-        <!-- Hamburger menu button -->
         <button
           class="border-0 bg-transparent px-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
           type="button"
@@ -38,7 +37,6 @@
           aria-controls="navbarSupportedContentX"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <!-- Hamburger menu icon -->
           <span class="[&>svg]:w-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +60,6 @@
             </div>
         </a>
       </div>
-      <!-- Navigation links -->
       <div
         class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
         id="navbarSupportedContentX"
@@ -104,7 +101,7 @@
             </a>
           </li>
 
-          <!-- Dropdown -->
+
           <div class="relative mr-2" data-te-dropdown-ref>
             <a
               class="block transition duration-150 ease-in-out focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 rounded-lg bg-transparent hover:bg-blue-500 hover:text-black/90 flex items-center"
@@ -165,17 +162,6 @@
               </li>
             </ul>
         </div>
-        <!-- <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-          <a class="block transition duration-150 ease-in-out focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 rounded-lg bg-transparent hover:bg-blue-500 hover:text-black/90 flex items-center"
-                href="{{ route('entreprise') }}"
-                data-te-nav-link-ref
-                data-te-ripple-init
-                data-te-ripple-color="light">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
-                </svg>Entreprise2
-            </a>
-        </li> -->
         <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a class="block transition duration-150 ease-in-out focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 rounded-lg bg-transparent hover:bg-blue-500 hover:text-black/90 flex items-center"
                 href="{{ env('DISCORD_LINK') }}"
@@ -192,7 +178,6 @@
     </div>
   </nav>
 
-  <!-- Hero section with background image, heading, subheading and button -->
   <div
     class="relative overflow-hidden bg-cover bg-no-repeat"
     style="
@@ -211,12 +196,12 @@
                     <span class="red">Life</span>
                 </h1>
                 <h4 class="mb-8 text-3xl font-bold custom-font">Rôleplay</h4>
-                  <div class="flex space-x-4 justify-center"> <!-- Utilisation de justify-center pour centrer le contenu -->
+                  <div class="flex space-x-4 justify-center">
                     <a href="{{ env('CFX_LINK') }}" class="inline-block rounded-full bg-warning bg-opacity-50 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#e4a11b] transition duration-150 ease-in-out hover:bg-warning-600 hover:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.3),0_4px_18px_0_rgba(228,161,27,0.2)] focus:bg-warning-600 focus:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.3),0_4px_18px_0_rgba(228,161,27,0.2)] focus:outline-none focus:ring-0 active:bg-warning-700 active:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.3),0_4px_18px_0_rgba(228,161,27,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(228,161,27,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.2),0_4px_18px_0_rgba(228,161,27,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.2),0_4px_18px_0_rgba(228,161,27,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(228,161,27,0.2),0_4px_18px_0_rgba(228,161,27,0.1)] flex items-center">
                       @include('partials.server-info')
                     </a>
                     <a href="{{ env('DISCORD_LINK') }}" class="inline-block rounded-full bg-primary bg-opacity-50 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] flex items-center">
-                        <div class="flex items-center"> <!-- Ajout de flex et items-center pour centrer le contenu -->
+                        <div class="flex items-center">
                             <svg class="fill-[#f2f2f2] w-6 h-6 mr-4" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
                             </svg>
@@ -257,11 +242,11 @@
     @yield('content')
 </main>
 
-<!--Footer container-->
+
   <footer
     class="flex flex-col items-center bg-neutral-200 text-center text-white dark:bg-neutral-600">
     <div class="container pt-9">
-      <div class="mb-9 flex justify-center">
+      <div class="mb-9 flex justify-center bg-neutral-200 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
         <a href="{{ env('INSTA_LINK') }}" class="mr-9 text-neutral-800 dark:text-neutral-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +288,6 @@
             viewBox="0 0 448 512"
             class="h-7 w-7"
             style="color: #6a76ac">
-            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
               fill="currentColor"
               d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
@@ -311,8 +295,6 @@
         </a>
       </div>
     </div>
-
-    <!--Copyright section-->
     <div
       class="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
       © 2024 Copyright:
